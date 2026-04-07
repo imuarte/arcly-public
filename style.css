@@ -1,0 +1,32 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e;
+  color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 0 10px 0;
+}
+
+#countdown {
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: 4em; }
+  p { font-size: 1em; }
+  #countdown { font-size: 0.8em; }
+}
