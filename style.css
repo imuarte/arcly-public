@@ -21,9 +21,20 @@ p {
   margin: 0 0 10px 0;
 }
 
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 #countdown {
   font-size: 0.8em;
 }
+
 
 @media (max-width: 600px) {
   h1 { font-size: 4em; }
